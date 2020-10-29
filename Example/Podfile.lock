@@ -1,0 +1,16 @@
+PODS:
+  - DoDownloadVideo (0.1.0)
+
+DEPENDENCIES:
+  - DoDownloadVideo (from `../`)
+
+EXTERNAL SOURCES:
+  DoDownloadVideo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DoDownloadVideo: 85e71eba4aa6dadcfe6d94b496e0c3bb02442fa6
+
+PODFILE CHECKSUM: 27d6c4c3f4b02cbe6710724f046e3e185867216b
+
+COCOAPODS: 1.8.4

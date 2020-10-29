@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		095BF765EE4ED11136E4B714 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		095BF765EE4ED11136E4B714 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		22A1396934DB7FB5A61F49D1 /* Pods-DoDownloadVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoDownloadVideo_Example.debug.xcconfig"; path = "Target Support Files/Pods-DoDownloadVideo_Example/Pods-DoDownloadVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27896AE5B37827CF36FB3157 /* Pods_DoDownloadVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoDownloadVideo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36634D308F4F100292B47D31 /* Pods-DoDownloadVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoDownloadVideo_Tests.release.xcconfig"; path = "Target Support Files/Pods-DoDownloadVideo_Tests/Pods-DoDownloadVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACE51AFB9204008FA782 /* DoDownloadVideo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDownloadVideo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7D2127D18F526BB56113842B /* DoDownloadVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DoDownloadVideo.podspec; path = ../DoDownloadVideo.podspec; sourceTree = "<group>"; };
-		AF83A5BFE3965509BB94BDCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D2127D18F526BB56113842B /* DoDownloadVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DoDownloadVideo.podspec; path = ../DoDownloadVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF83A5BFE3965509BB94BDCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE198233DA650B47AD6CBDDC /* Pods-DoDownloadVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoDownloadVideo_Example.release.xcconfig"; path = "Target Support Files/Pods-DoDownloadVideo_Example/Pods-DoDownloadVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F217A69CC0F6FA738E0456D9 /* Pods-DoDownloadVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoDownloadVideo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DoDownloadVideo_Tests/Pods-DoDownloadVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				F217A69CC0F6FA738E0456D9 /* Pods-DoDownloadVideo_Tests.debug.xcconfig */,
 				36634D308F4F100292B47D31 /* Pods-DoDownloadVideo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

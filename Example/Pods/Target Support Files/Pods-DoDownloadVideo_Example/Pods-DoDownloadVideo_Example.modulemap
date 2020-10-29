@@ -1,0 +1,6 @@
+framework module Pods_DoDownloadVideo_Example {
+  umbrella header "Pods-DoDownloadVideo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

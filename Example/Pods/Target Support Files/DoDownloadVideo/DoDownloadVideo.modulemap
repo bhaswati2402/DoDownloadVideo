@@ -1,0 +1,6 @@
+framework module DoDownloadVideo {
+  umbrella header "DoDownloadVideo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DoDownloadVideo",
+  "version": "0.1.0",
+  "summary": "A short description of DoDownloadVideo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bhaswati/DoDownloadVideo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bhaswati": "bhaswati2402@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Bhaswati/DoDownloadVideo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DoDownloadVideo/Classes/**/*"
+}
