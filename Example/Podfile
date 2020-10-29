@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DoDownloadVideo_Example' do
+  pod 'DoDownloadVideo', :path => '../'
+
+  target 'DoDownloadVideo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
